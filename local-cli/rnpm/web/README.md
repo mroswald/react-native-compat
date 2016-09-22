@@ -1,0 +1,13 @@
+# Usage
+
+Install plugin with
+
+```bash
+$ npm install --save-dev mroswald/rnpm-plugin-web
+```
+
+and install with
+
+```bash
+$ react-native web --webVersion mroswald/react-native-compat
+```

@@ -1,0 +1,8 @@
+{
+  "presets": ["react-native"],
+  "plugins": [
+    ["module-alias", [
+      {"src": "npm:react-native-compat", "expose": "react-native"}
+    ]]
+  ]
+}

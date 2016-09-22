@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title><%= name %></title>
+  </head>
+  <body>
+      <div id="react-app"></div>
+      <script type="application/javascript">
+        __DEV__ = true;
+        __fbBatchedBridgeConfig = {
+          remoteModuleConfig: [],
+          localModulesConfig: [],
+        };
+        process = {
+            env: {
+                NODE_ENV: JSON.stringify('development')
+            },
+            platform: 'web'
+        };
+      </script>
+      <script src="http://localhost:8081/index.web.bundle?platform=web&dev=true&hot=true"></script>
+      <script src="utils/hmrclient.js"></script>
+  </body>
+</html>

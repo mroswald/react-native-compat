@@ -1,0 +1,31 @@
+{
+  "name": "rnpm-plugin-web",
+  "version": "0.0.1",
+  "description": "rnpm plugin that generates a web template project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rnpm",
+    "react-native",
+    "react-native-compat",
+    "react-native-web",
+    "rnpm web"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mroswald/react-native-compat.git"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">=0.31.0"
+  },
+  "dependencies": {
+    "semver": "^5.0.3",
+    "chalk": "^1.1.3"
+  }
+}
