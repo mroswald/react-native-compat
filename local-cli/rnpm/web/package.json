@@ -1,6 +1,6 @@
 {
   "name": "rnpm-plugin-web",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "rnpm plugin that generates a web template project",
   "main": "index.js",
   "scripts": {
