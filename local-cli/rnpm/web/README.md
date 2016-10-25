@@ -3,7 +3,7 @@
 Install plugin with
 
 ```bash
-$ npm install --save-dev mroswald/rnpm-plugin-web
+$ npm install --save-dev rnpm-plugin-web
 ```
 
 and install with
